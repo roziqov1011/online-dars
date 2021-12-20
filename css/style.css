@@ -1,0 +1,253 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Livvic', sans-serif;
+}
+
+.container {
+    width: 1130px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 10px;
+}
+
+.header {
+    background-color: #014E56;
+}
+
+.header-block {
+    padding-top: 73px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+.nav-list_item a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-logo {
+    margin-right: 80px;
+}
+
+.nav-list_item {
+    margin-right: 40px;
+}
+
+.nav-btn {
+    background-color: transparent;
+    padding: 10px 33px;
+    border: 2px solid #FFFFFF;
+    border-radius: 24px;
+    color: #fff;
+    font-weight: 600;
+}
+
+
+
+
+/* hero */
+
+.hero {
+    background: url('../img/Oval1.png'), #014E56;
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: 0 center;
+
+}
+
+.her-block {
+    padding-top: 133px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-title {
+    width: 635px;
+    font-size: 70px;
+    line-height: 100px;
+    color: #FFFFFF;
+}
+
+.hero-title span {
+    color: tomato;
+}
+
+.hero-text {
+    width: 445px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.hero-text::before {
+    margin-bottom: 79px;
+    display: block;
+    content: '';
+    width: 50px;
+    height: 4px;
+    background-color: #79C8C7;
+}
+
+
+
+/* build */
+
+.build {
+    background: url('../img/oval2.png'), #012F34;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.build-block {
+    padding-top: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.build-title {
+    width: 445px;
+    font-size: 48px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+
+.build-title::before {
+    margin-bottom: 54px;
+    display: block;
+    content: '';
+    width: 50px;
+    height: 4px;
+    background-color: #F67E7E;
+}
+
+.build-list {
+    list-style-type: none;
+
+}
+
+.build-list_item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+    color: #fff;
+    width: 445px;
+}
+
+.build-list_item::before {
+    margin-top: -50px;
+    margin-right: 23px;
+    width: 147px;
+    height: 72px;
+    display: block;
+    content: '';
+    background-image: url('../img/img.svg');
+    background-size: 72px;
+}
+
+.build-list_item h4 {
+    margin-bottom: 16px;
+    color: #F67E7E;
+}
+
+.build-list_item p {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+/* parson */
+.parson {
+    padding-top: 140px;
+    padding-bottom: 150px;
+    background-color: #014E56;
+}
+
+.parson-title {
+    margin-left: auto;
+    margin-right: auto;
+    width: 932px;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.parson-title span {
+    color: #79C8C7;
+}
+
+.parson-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.parson-list_ietm {
+    width: 350px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 56px;
+    color: #fff;
+}
+
+.parson-list_ietm p {
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 24px;
+}
+
+.parson-list_ietm h4 {
+    color: #79C8C7;
+}
+
+.parson-list_ietm span {
+    font-style: italic;
+}
+
+.parson-list_ietm::before {
+    margin-bottom: -30px;
+    width: 70px;
+    height: 60px;
+    display: block;
+    content: '';
+    background-image: url('../img/qoshtirnoq.svg');
+    background-repeat: no-repeat;
+}
+
+.parson-list_ietm::after {
+    margin-top: 32px;
+    width: 70px;
+    height: 60px;
+    display: block;
+    content: '';
+    background-image: url('../img/avatar.png');
+    background-repeat: no-repeat;
+    background-size: 62px;
+}
